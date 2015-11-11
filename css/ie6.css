@@ -1,0 +1,66 @@
+#global-hd-container {
+	background-image: none;
+}
+
+#global-hd ul li {
+	padding: 0px 14px 0px 18px;
+}
+
+#container #logos {	
+	margin-top: 5px;
+}
+
+#logos #ieee {
+	background-image: url(../images/logo_ieeeBLK.gif);
+}
+
+#navbar #navigation ul li a.active {
+	background-image: none;
+}
+
+#leftnav .leftnav-header {
+	background-image: none;
+	height: 20px;
+}
+
+#leftnav ul li a {
+	height: 20px;
+}
+
+#leftnav .control {
+	margin-left: 5px; 
+	padding-top: 6px;
+}
+
+div .header .overline {
+	background-image: none;
+}
+
+#navbar #navigation ul li a:hover {
+	background-image: none;
+}
+
+#content th {
+	background-image: none;
+}
+
+.slideshow2 {
+	padding-top: 10px;
+}
+
+.slideshow2 .mid {
+	background: url(../images/slideshow2/bg_mid.png) repeat-y;
+	min-height: 50px;
+}
+
+#hp-container .box-1 .content {
+	min-height: 50px;
+}
+
+#hp-container .box-2 .content {
+	min-height: 50px;
+}
+
+#footer {
+	padding: 3px 0;
+}

@@ -1,0 +1,60 @@
+
+.noborder{
+	border:0px none black !important;
+}
+
+td{
+	width: 50%;
+}
+
+.rightCol{
+	float: right;
+	width: 50%;
+	
+}
+
+.leftCol{
+	float: left;
+	width: 50%;
+	
+}
+
+.hrule{
+	height: 2px;
+	background: #2a2a2a url(../images/bg_header.png) repeat-x;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.blue-back{
+	background-color:#6D86C0;
+	border:1px solid #6D86C0;
+	color:white;
+	padding: 1px;
+	margin-top:1px;
+}
+
+.blue-text{
+	border:1px solid #182C57;
+	color:#182C57;
+	background-color:white;
+	padding: 1px;
+	margin-top:1px;
+}
+
+.green{
+	background-color:#228822;
+	color:white;
+	padding: 3px;
+	margin-top:5px;
+}
+.legendtable{
+	width:300px;
+}
+.legend{
+	width:195px;
+	height:20px;
+	float:left;
+	margin-right:10px;
+}
+

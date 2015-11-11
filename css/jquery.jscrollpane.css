@@ -1,0 +1,132 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 26px;
+	width: 20px;
+	height: 100%;
+	background: url(../images/bg_scrollpane.gif) repeat-y;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: url(../images/bg_scrollpane.gif) repeat-y;
+	display: none;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: url(../images/bg_scrollpane.gif) repeat-y;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: url(../images/scroll_mid.png) repeat-y;
+	position: relative;
+	top: 0;
+	left: 2px;
+	cursor: pointer;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	background: url(../images/scroll_down.png) 2px 0 no-repeat;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: url(../images/scroll_down.png) 2px 0 no-repeat;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 18px;
+}
+
+.jspVerticalBar .jspArrowUp
+{
+	background: url(../images/scroll_up.png) 2px 0 no-repeat;
+}
+
+.jspVerticalBar .jspArrowDown
+{
+	height: 18px;
+	background: url(../images/scroll_down.png) 2px 0 no-repeat;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* CSS Hack for IE6 3 pixel bug */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}

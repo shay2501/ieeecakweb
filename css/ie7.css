@@ -1,0 +1,55 @@
+#slideshow ul#slide-nav li {
+	height: 58px;
+}
+
+.slideshow2 {
+	padding-top: 10px;
+}
+
+.slideshow2 .mid {
+	background: url(../images/slideshow2/bg_mid.png) repeat-y;
+	min-height: 50px;
+}
+
+#hp-container .box-1 .content {
+	min-height: 50px;
+}
+
+#hp-container .box-2 .content {
+	min-height: 50px;
+}
+
+#hp-container .box-3 .content {
+	min-height: 50px;
+}
+
+#hp-container .box-3 .tabs .tab-content.fix {
+	margin-left: 10px;
+
+}
+
+#footer {
+	padding: 3px 0;
+}
+
+#content .inside-content {
+	min-height: 200px;
+}
+
+#content .sp-content1 .content {
+	min-height: 50px;
+}
+
+#content .sp-content2 .content {
+	min-height: 50px;
+}
+
+.jspVerticalBar .jspArrowDown
+{
+	position: relative;
+	bottom: -18px;
+}
+
+#footer .mid {
+	min-height: 10px;
+}
